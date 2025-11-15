@@ -14,3 +14,11 @@ const products = [
 
 const promotion = products.filter(product => product.promotion === true);
 console.log(promotion);
+
+const ages = [8, 22, 18, 50, 33, 21, 45, 40];
+
+const evenAges = ages.filter(function (age) {
+  return age % 2 === 0;
+});
+
+console.log(evenAges);
