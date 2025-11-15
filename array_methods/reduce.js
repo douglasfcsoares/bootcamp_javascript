@@ -9,12 +9,12 @@
  * - Index (index da iteração atual - opcional)
  */
 
-const values = [1, 2, 3, 4, 5];
+const values = [8, 13, 27, 30, 22, 40];
 
-const sum = values.reduce((accumulator, currentValue, index) => {
+const sum = values.reduce((accumulator, currentValue) => {
   console.log("🚀 ~ accumulator:", accumulator);
   console.log("🚀 ~ currentValue:", currentValue);
-  console.log("🚀 ~ index:", index);
+  // console.log("🚀 ~ index:", index);
 
   console.log("Soma = ", accumulator + currentValue);
   console.log("########################################");
