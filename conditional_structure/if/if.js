@@ -39,3 +39,13 @@ if (sum1 === 4 && sum2 === 13) {
 if (sum1 === 4 || sum2 === 13) {
   console.log("Uma das condições é verdadeira (sum1 é 4 OU sum2 é 13).");
 }
+
+// O operador ternário é uma forma concisa de escrever uma estrutura condicional `if-else`.
+// Sua sintaxe é: condição ? valorSeVerdadeiro : valorSeFalso;
+
+let mensagem = idade >= 18 ? "Maior de idade" : "Menor de idade";
+console.log(mensagem);
+
+// Exemplo com outra variável:
+let podeDirigir = idade >= 18 ? true : false;
+console.log("Pode dirigir?", podeDirigir);
