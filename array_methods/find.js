@@ -4,8 +4,8 @@
 const values = [5, 34, 65, 2, 42, 552];
 
 // Retorna o primeiro elemento que o valor é maior que 10.
-const found = values.find(value => value > 10);
-console.log(found);
+const found = values.find(value => value > 600);
+console.log("🚀 ~ found:", found);
 
 // Exemplo com objetos.
 const fruits = [
